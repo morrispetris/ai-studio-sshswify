@@ -1,0 +1,6 @@
+{
+  "name": "Sshwifty",
+  "description": "Web SSH & Telnet client connector for remote terminal access with multi-session tabs, known remotes, and preset management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

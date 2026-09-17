@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* Hide scrollbar for tabs and horizontal bars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom dark scrollbars for terminal and dialogs */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #11141c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252c3c;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #363f54;
+}
+
+/* Ensure xterm fills container properly */
+.xterm {
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+}
+
+.xterm .xterm-viewport {
+  overflow-y: auto;
+}
